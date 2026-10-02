@@ -1,0 +1,18 @@
+# Data — do not commit (Kaggle terms + size)
+creditcard.csv
+creditcardfraud.zip
+*.zip
+
+# Splits are regenerable from the notebook
+splits/
+
+# Colab / Python cruft
+sample_data/
+.config/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Secrets — NEVER commit
+kaggle.json
+.env
